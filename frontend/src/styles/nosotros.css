@@ -1,0 +1,46 @@
+.historia {
+    font-size: 15px;
+}
+
+.historia h2 {
+
+    font-size: 30px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    border: 1px solid rgb(161, 85, 9);
+    border-radius: 10px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+
+
+}
+
+.persona h5 {
+    color: rgb(161, 85, 9)
+}
+
+.persona h6 {
+    color: rgb(161, 85, 9)
+}
+
+
+.persona img {
+
+    border-radius: 50%;
+
+    max-height: 25%;
+    box-shadow: 0 0 15px rgb(161, 85, 9)
+}
+
+.persona p {
+    font-size: 13px;
+
+}

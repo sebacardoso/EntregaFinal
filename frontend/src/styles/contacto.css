@@ -1,0 +1,81 @@
+
+  
+ 
+  .holder-contacto {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  
+  .formulario-container {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .formulario {
+    background-color: rgb(218, 184, 140);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .formulario h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .formulario label {
+    display: flex;
+    margin-bottom: 6px;
+    color: #555;
+  }
+  
+  .formulario input,
+  .formulario textarea {
+    width: 100%;
+    padding: 5px;
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formulario .acciones {
+    text-align: center;
+  }
+  
+  .formulario input[type="submit"] {
+    background-color:rgb(161, 85, 9);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formulario input[type="submit"]:hover {
+    background-color:rgb(194, 156, 118);
+  }
+  
+  
+  .datos {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .datos h2 {
+    text-align: left;
+    
+  }
+  
+  
+  
+  .datos ul {
+    list-style-type: none;
+    text-align: left;
+  }
+  
+  .datos li {
+    margin-bottom: 8px;
+    
+    text-align: left;
+  }
